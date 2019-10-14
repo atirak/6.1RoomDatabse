@@ -1,7 +1,7 @@
-TrackMySleepQuality - Starter Code for 6.2 Coroutines codelab
-=============================================================
+TrackMySleepQuality - Starter Code for 6.3 Recording Quality & Button States
+============================================================================
 
-Starter code for Android Kotlin Fundamentals Codelab 6.2 Coroutines
+Starter code for Android Kotlin Fundamentals Codelab 6.3 Recording Quality & Button States
 
 Introduction
 ------------
@@ -10,28 +10,21 @@ TrackMySleepQuality is an app for recording sleep data for each night.
 You can record a start and stop time, assign a quality rating, and clear the database. 
 
 In this codelab, working from this starter app, you will:
-
-* Extend the TrackMySleepQuality app to collect, store, and display data in and from the database. 
-* Use coroutines to run long-running database operations in the background. 
-* Use LiveData to trigger navigation and showing of a snackbar. 
+* Extend the TrackMySleepQuality app to collect a quality rating, add it to the database and display the result.
+* Use LiveData to trigger showing of a snackbar. 
 * Use LiveData to enable and disable buttons.
 
 
 Pre-requisites
 --------------
 
-You need to know:
+You should be familiar with:
 
-* Building a basic user interface (UI) for an Android app, 
-  using an activity, fragments, and views.
-* Navigating between fragments and using Safe Args (a Gradle plugin) 
-  to pass data between fragments.
-* View models, view-model factories, and LiveData and its observers. 
-  These Architecture Components topics are covered in an earlier codelab in this course.
-* A basic understanding of SQL databases and the SQLite language.
-* How to create a Room database, create a DAO, and define entities, 
-  from the previous Room codelab[LINK]. 
-* It is helpful if you are familiar with threading and multiprocessing concepts.
+* Navigating between fragments, and using safeArgs to pass data between fragments.
+* View models, view model factories, Transformations, and LiveData and their observers 
+  from the preceding Architecture Components codelab[LINK].
+* How to create a Room database, create a DAO, and define entities.
+* How to use coroutines for database interactions and other long-running tasks.
 
 
 Getting Started
